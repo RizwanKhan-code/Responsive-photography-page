@@ -1,0 +1,129 @@
+
+main{
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+      -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+.acme{
+
+    background-color: #fff;
+    display: flex;
+   max-height: 400px;
+}
+.text{
+    display: flex;
+    flex-basis: 40%;
+    max-width: 40%;
+}
+.inner-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.thumb{
+    flex-basis: 60%;
+    max-width: 60%;
+}
+.thumb img{
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: block;
+  margin: 0;
+  object-fit: cover;
+  height: 100%;
+  }
+ 
+  .inner-text h1{font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+.inner-text h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+.button {
+    display: inline-block;
+    margin: 2rem 0 0;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 13px 30px;
+    transition: 0.4s;
+  }
+  .button:hover {
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  .heading{
+   
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  }
+  .heading h2{
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .caption{
+  padding: 0.8rem;
+  text-align: center;}
+  img {
+    display: block;
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+  }
+  
+  footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .inner-text h1 {
+    
+        font-size: 2rem;
+    
+    }
+
+  }
+  
+  @media screen and (max-width: 425px) {
+    .inner-text h1 {
+    
+        font-size: 1rem;
+    
+    }
+    .button {
+       
+        padding: 0px 5px;
+      
+    }
+    .button:hover{
+        border: 1px solid black;
+    }
+  }
